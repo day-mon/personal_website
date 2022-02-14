@@ -1,0 +1,24 @@
+.topNav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.topNav li {
+    display: inline-block;
+}
+.topNav li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rebeccapurple;
+    display: block;
+    width: 100px;
+    text-transform: lowercase;
+    font-weight: bold;
+    padding: 25px 10px;
+}
+
+.topNav li a:hover {
+    color: white;
+}
